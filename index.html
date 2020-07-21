@@ -1,149 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Home</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="theme-color" content="#2196f3">
-  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
-  <title>DwiftiSigned</title>
-  <link rel="stylesheet" href="css/framework7.bundle.css">
-  <link rel="stylesheet" href="css/app.css">
-  <link rel="apple-touch-icon" href="img/icon.png">
-  <link rel="icon" href="img/icon.png">
-  <style>
+<style>
 
-   .page-content{
-    background-color:#fff;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: black;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  overflow:auto;
-  -webkit-overflow-scrolling: touch;
-  --f7-list-link-pressed-bg-color: #fff;
-  }
-  
-  .tabbar-label{
-  font-size:12px;
-  }
+*{
+	font-family:helvetica;
+}
 
-  
-  .item-title-row{color:black;}
+body{
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background-color: #111;
+	color:#fff;
+  background-image: url(https://www.elsetge.cat/myimg/f/8-81429_blur-wallpaper-blurred-abstract-background.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
 
 
-  </style>
+
+</style>
 </head>
 <body>
-  <div id="app">
-    
-    <div class="views tabs">
-      <!--
-        Tabbar for switching views-tabs. Should be a first child in Views.
-        Additional "toolbar-bottom" class to set it on bottom
-      -->
-      <div style="height:50px"class="toolbar tabbar toolbar-bottom">
-    <div style="height:50px;" class="toolbar-inner">
-      <a href="#tab1" class="tab-link tab-link-active"><i class="icon f7-icons if-not-md">bag_fill</i> <span class="tabbar-label">Home</span></a>
-      <a href="#tab2" class="tab-link"><i class="icon f7-icons if-not-md">layers_alt_fill</i><span class="tabbar-label">Apps</span></a></a>
-      <a href="#tab3" class="tab-link"><i class="icon f7-icons if-not-md">archivebox_fill</i><span class="tabbar-label">Info</span></a>
-       
-    </div>
-  </div>
-  
-    <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
-      <div class="page page-home">
-          
-          
-          <div class="tabs">
-    <!-- Tab 1, active by default -->
-    <div id="tab1" class="tab tab-active ">
-      <div data-page="index" class="page"> 
-      <div class="page-content">
-      <h1 style="font-size:40px;margin-left:5%;margin-top:20px;">Home</h1>
-<p style= "font-size:20px"> Welcome to DwiftiSigned, the appstore for the latest jailbreaks. </p>
+<br>
 
-<p style= "font-size:15px"> ⚠️ Make sure to use the ffapple proxy when downloading! ⚠️ </p>
+<div style="padding:20px;">
+<h1 style="font-size:30px;font-weight:200;">DwiftiSigned</h1>
 
-
+  <h1 style="font-size:17px;font-weight:200;" class="typewrite" data-period="1000" data-type='[ "Get latest Apps", "Get Jailbroken", "Thank Casp" ]'>
+    <span class="wrap"></span>
+  </h1>
 </div>
-</div>
-    </div>
-
-    <!-- Tab 2 -->
-    <div id="tab2" class="tab">
-      <div data-page="index" class="page"> 
-      <div class="page-content">
-      
-      <h1 style="font-size:40px;margin-left:5%;margin-top:20px;">Applications</h1>
-
-<div class="list media-list inset">
-  <ul>
-    <li>
-      <a onclick="location='itms-services://?action=download-manifest&url= https://dwiftejb.github.io/dwiftisigned/plists/unc0ver-5.2.0.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Unc0ver 5.2.0</div>    
-          </div>
-            <div class="item-subtitle">By Pwn20WND</div>
-          </div>
-          </a></li>
-          <li>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://yourwebsite.com/plists/app.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://cammyd.com/wp-content/uploads/2015/02/iosicongridsmall.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Title</div>    
-          </div>
-            <div class="item-subtitle">Subtitle</div>
-          </div>
-          </a></li>
-          <li>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://yourwebsite.com/plists/app.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://cammyd.com/wp-content/uploads/2015/02/iosicongridsmall.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Title</div>    
-          </div>
-            <div class="item-subtitle">Subtitle</div>
-          </div>
-          </a></li>
-        </ul>
-        </div>
-      
+<br>
 
 
-</div>
-</div>
-    </div>
 
-    <!-- Tab 3 -->
-    <div id="tab3" class="tab">
-      <div data-page="index" class="page"> 
-      <div class="page-content">
-      
-      <h1 style="font-size:40px;margin-left:5%;margin-top:20px;">Info</h1>
+<center>
+
+  <img style="width:120px;border-radius:20%;" src="https://pbs.twimg.com/profile_images/1019627376857280512/laMqxYhl_400x400.jpg">
+
+  <h1 style="font-size:50px;font-weight:200;">Get Started</h1>
+
+  <img style="width:60px;" src="https://pngimage.net/wp-content/uploads/2018/06/white-down-arrow-png-7.png">
+
+<a style="font-size:17px;padding:15px;text-decoration:none;display:block;width:80%;max-width:300px;background-color:#111;border-radius:20px;color:white;opacity:0.9;" href="https://dwiftejb.github.io/dwiftisigned/app">Open Site</a>
+</center>
 
 
 
 
 
-</div>
-</div>
-    </div>
-  </div>
-  </div>
-</div>
-
-
-  <script src="js/framework7.bundle.js"></script>
-  <script src="js/routes.js"></script>
-  <script src="js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
 </body>
 </html>
+<script>
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 1000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+</script>
