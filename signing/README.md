@@ -31,7 +31,7 @@ chmod 777 420Signer
 ```
 # Sign a single app
 
-./420Signer -f SA -a ~/Downloads/unc0ver.ipa -m ~/Downloads/420/证书.mobileprovision -c ~/Downloads/420/证书.p12 -p 123
+./420Signer -f SA -a ~/Downloads/tv.ipa -m ~/Downloads/420/mb.mobileprovision -c ~/Downloads/420/p12.p12 -p 123
 
 # Sign a folder full of apps
 
