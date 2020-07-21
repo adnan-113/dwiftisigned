@@ -1,3 +1,21 @@
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd /var/mobile/Documents/git/dwiftisigned
+
 echo Starting
   git add .
    git commit -m "Updating Files.. (I am a bot, I have no idea what is happening...)"
