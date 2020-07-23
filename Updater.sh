@@ -18,7 +18,7 @@ cd /var/mobile/Documents/git/dwiftisigned
 
 echo Starting
   git add .
-   git commit -m "Updating Files.. (I am a bot, I have no idea what is happening...)"
+   git commit -m "Updated Files. Check out the website for changes!"
     echo — - - - - - - - - - - - - - - -
     echo Uploading to Github! Approx 1m
     echo — - - - - - - - - - - - - - - -
