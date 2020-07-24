@@ -18,7 +18,7 @@ cd /var/mobile/Documents/git/dwiftisigned
 
 echo Starting
   git add .
-   git commit -m "More Sections."
+   git commit -m "Fixed Profile"
     echo — - - - - - - - - - - - - - - -
     echo Uploading to Github! Approx 1m
     echo — - - - - - - - - - - - - - - -
