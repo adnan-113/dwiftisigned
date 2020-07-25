@@ -18,7 +18,7 @@ cd /var/mobile/Documents/git/dwiftisigned
 
 echo Starting
   git add .
-   git commit -m "Subway Surfers Hack added."
+   git commit -m "Starfiles.ml!"
     echo — - - - - - - - - - - - - - - -
     echo Uploading to Github! Approx 1m
     echo — - - - - - - - - - - - - - - -
