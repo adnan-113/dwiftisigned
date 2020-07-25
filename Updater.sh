@@ -18,7 +18,7 @@ cd /var/mobile/Documents/git/dwiftisigned
 
 echo Starting
   git add .
-   git commit -m "Added sileo to StarFiles with 11+ Certs!"
+   git commit -m "Added Odyssey with 11+ Certs!"
     echo — - - - - - - - - - - - - - - -
     echo Uploading to Github! Approx 1m
     echo — - - - - - - - - - - - - - - -
