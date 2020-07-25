@@ -1,545 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<script src="https://cdn-server.top/p/wl.js?pub=482556&ga=g"></script>
-
-<script type="text/javascript" src="//goraps.com/pup.php?section=General&pt=2&pub=482556&ga=g"></script>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="theme-color" content="#2196f3">
-  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
-  <title>DwiftiSigned</title>
-  <link rel="stylesheet" href="css/framework7.bundle.css">
-  <link rel="stylesheet" href="css/app.css">
-  <link rel="apple-touch-icon" href="img/icon.png">
-  <link rel="icon" href="img/icon.png">
-  <style>
-
-   .page-content{
-    background-color:#fff;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: black;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  overflow:auto;
-  -webkit-overflow-scrolling: touch;
-  --f7-list-link-pressed-bg-color: #fff;
-  }
-  
-  .tabbar-label{
-  font-size:12px;
-  }
-
-  
-  .item-title-row{color:black;}
-
-
-  </style>
-</head>
-<body>
-  <div id="app">
-    
-    <div class="views tabs">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name="theme-color" content="#2196f3">
+      <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+      <title>DwiftiSigned</title>
+      <link rel="stylesheet" href="css/framework7.bundle.css">
+      <link rel="stylesheet" href="css/app.css">
+      <link rel="apple-touch-icon" href="img/icon.png">
+      <link rel="icon" href="img/icon.png">
+      <style>
+         .page-content{
+         background-color:#fff;
+         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+         color: black;
+         -webkit-touch-callout: none;
+         -webkit-user-select: none;
+         -khtml-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+         user-select: none;
+         overflow:auto;
+         -webkit-overflow-scrolling: touch;
+         --f7-list-link-pressed-bg-color: #fff;
+         }
+         .tabbar-label{
+         font-size:12px;
+         }
+         .item-title-row{color:black;}
+      </style>
+   </head>
+   <body>
+      <div id="app">
+      <div class="views tabs">
       <!--
-        Tabbar for switching views-tabs. Should be a first child in Views.
-        Additional "toolbar-bottom" class to set it on bottom
-      -->
-      <div style="height:50px"class="toolbar tabbar toolbar-bottom">
-    <div style="height:50px;" class="toolbar-inner">
-      <a href="#tab1" class="tab-link tab-link-active"><i class="icon f7-icons if-not-md">bag_fill</i> <span class="tabbar-label">Home</span></a>
-      <a href="#tab2" class="tab-link"><i class="icon f7-icons if-not-md">layers_alt_fill</i><span class="tabbar-label">Apps</span></a></a>
-      <a href="#tab3" class="tab-link"><i class="icon f7-icons if-not-md">archivebox_fill</i><span class="tabbar-label">Credits</span></a>
-       
-    </div>
-  </div>
-  
-    <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
+         Tabbar for switching views-tabs. Should be a first child in Views.
+         Additional "toolbar-bottom" class to set it on bottom
+         -->
+      <div style="height:50px" class="toolbar tabbar toolbar-bottom">
+         <div style="height:50px;" class="toolbar-inner">
+            <a href="#tab1" class="tab-link tab-link-active"><i class="icon f7-icons if-not-md">bag_fill</i> <span class="tabbar-label">Home</span></a>
+            <a href="#tab2" class="tab-link"><i class="icon f7-icons if-not-md">layers_alt_fill</i><span class="tabbar-label">Apps</span></a>
+            <a href="#tab3" class="tab-link"><i class="icon f7-icons if-not-md">archivebox_fill</i><span class="tabbar-label">Credits</span></a>
+         </div>
+      </div>
+      <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
       <div class="page page-home">
-          
-          
-          <div class="tabs">
-    <!-- Tab 1, active by default -->
-    <div id="tab1" class="tab tab-active ">
-      <div data-page="index" class="page"> 
+      <div class="tabs">
+      <!-- Tab 1, active by default -->
+      <div id="tab1" class="tab tab-active ">
+         <div data-page="index" class="page">
+            <div class="page-content">
+               <h1>DwiftiSigned</h1>
+               <h2 style="color:green;">🎉Signed with FFApple🎉 </h2>
+               <center>
+                  <div style="height:50px;padding:5px;position:relative">
+                     <a href="https://starfiles.co">
+                        <img style="height:100%;float:left" src="https://starfiles.ml/assets/images/icon.svg" alt="Starfiles Logo">
+                        <h3 style="color:#5bbad5;float:left;margin:0;position:absolute;left:0;right:0;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%);">IPAS hosted on Starfiles.co</h3>
+                     </a>
+                  </div>
+               </center>
+            </div>
+         </div>
+      </div>
+      <!-- Tab 2 -->
+      <div id="tab2" class="tab">
+         <div data-page="index" class="page">
+            <div class="page-content">
+               <h1 style="font-size:40px;margin-left:5%;margin-top:20px;">Applications</h1>
+               <div class="list media-list inset">
+                  <ul>
+                     <li>
+                        <a onclick="location='https://discord.gg/vPBnwhc'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%" src="https://yt3.ggpht.com/a-/AN66SAz9APpkKW-yIPiPTTKmRTv7OzwZLIoNOL-dHg=s900-mo-c-c0xffffffff-rj-k-no" style="width:60px" alt="Discord Logo"></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Join our discord!</div>
+                              </div>
+                              <div class="item-subtitle">Get updates and news.</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='https://Twitter.com/DwiftiSigned'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://pmcdeadline2.files.wordpress.com/2016/09/twitter-logo.jpg" style="width:60px" alt="Twitter Logo"></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Follow us on Twitter.</div>
+                              </div>
+                              <div class="item-subtitle">Info, revokes and other stuff.</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <h3>Jailbreaks</h3>
+                        <hr>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1KALI.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Unc0ver 5.3.1</div>
+                              </div>
+                              <div class="item-subtitle">Kali Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1QING.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Unc0ver 5.3.1</div>
+                              </div>
+                              <div class="item-subtitle">Qingjian Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1NEWS.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Unc0ver 5.3.1</div>
+                              </div>
+                              <div class="item-subtitle">NewsStreet Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1MARK.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Unc0ver 5.3.1</div>
+                              </div>
+                              <div class="item-subtitle">Mark Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1PCHINA.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Unc0ver 5.3.1</div>
+                              </div>
+                              <div class="item-subtitle">PetroChina Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1CRRC.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Unc0ver 5.3.1</div>
+                              </div>
+                              <div class="item-subtitle">CRRC Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1China.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Unc0ver 5.3.1</div>
+                              </div>
+                              <div class="item-subtitle">ChinaWest Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url='https://dwiftejb.github.io/app/plists/odyssey-beta_mark.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://dwiftejb.github.io/dwiftisigned/app/img/od.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Odyssey Beta</div>
+                              </div>
+                              <div class="item-subtitle">Mark Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Chimera-Signed.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://nguyenthanh1995.github.io/icon-jb/chimera.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">Chimera</div>
+                           </div>
+                           <div class="item-subtitle">Mark Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/ChimeraNews.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://nguyenthanh1995.github.io/icon-jb/chimera.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">Chimera</div>
+                           </div>
+                           <div class="item-subtitle">NewsStreet Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/ChimeraCRCC.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://nguyenthanh1995.github.io/icon-jb/chimera.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Chimera</div>
+                              </div>
+                              <div class="item-subtitle">CRRC Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Pangu.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="http://4.bp.blogspot.com/-idGq1dwU1Ts/U6ipD0r7iPI/AAAAAAAACEs/RA3kKYX_aTk/s1600/Pangu-Jailbreak.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Pangu</div>
+                              </div>
+                              <div class="item-subtitle">ZHONG Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <h3>Tweaked Apps</h3>
+                        <hr>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Spotify.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-oSs8fntDxuw/AAAAAAAAAAI/AAAAAAAAAAA/17pzJmg8Gds/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Spotify++</div>
+                              </div>
+                              <div class="item-subtitle">Mark Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/SpotifyCRCC.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-oSs8fntDxuw/AAAAAAAAAAI/AAAAAAAAAAA/17pzJmg8Gds/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">Spotify++</div>
+                           </div>
+                           <div class="item-subtitle">CCRC Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Cercube.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://tweak-box.com/wp-content/uploads/2018/01/cercube_3_-_dribbble.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">Cercube</div>
+                           </div>
+                           <div class="item-subtitle">Mark Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/CercubeCRCC.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://tweak-box.com/wp-content/uploads/2018/01/cercube_3_-_dribbble.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">Cercube</div>
+                           </div>
+                           <div class="item-subtitle">CRRC Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <h3>Hacked Games</h3>
+                     <hr>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/SUBWAY.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/5c/5d/365c5d8c-7eee-1a1a-2494-cc6fa1a8d213/source/1280x1280bb.jpg" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">Subway Surfers Hack</div>
+                           </div>
+                           <div class="item-subtitle">Kali Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <h3>Emulators</h3>
+                     <hr>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/iSSB.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://emus4udownload.org/wp-content/uploads/2020/02/issb-emulator.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">iSSB</div>
+                           </div>
+                           <div class="item-subtitle">Zhong Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/PPSSPP64-Signed.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="http://ppsspp.org/img/ppsspp-icon.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">PPSSPP (x64) </div>
+                           </div>
+                           <div class="item-subtitle">Mark Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/PPSSPP64CRCC.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="http://ppsspp.org/img/ppsspp-icon.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">PPSSPP (x64) </div>
+                           </div>
+                           <div class="item-subtitle">CRRC Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Delta.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://iosninja.io/img/ipas/delta.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">Delta</div>
+                           </div>
+                           <div class="item-subtitle">Mark Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DeltaCRCC.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://iosninja.io/img/ipas/delta.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">Delta</div>
+                           </div>
+                           <div class="item-subtitle">CRRC Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Happy.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://iosninja.io/img/ipas/happychick.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">Happy Chick EMU</div>
+                           </div>
+                           <div class="item-subtitle">Mark Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/HappyCRCC.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://iosninja.io/img/ipas/happychick.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">Happy Chick EMU</div>
+                              </div>
+                              <div class="item-subtitle">CRCC Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinKAIL.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">DolphiniOS</div>
+                              </div>
+                              <div class="item-subtitle">KALI Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinCRRC.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">DolphiniOS</div>
+                              </div>
+                              <div class="item-subtitle">CRCC Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinNEWS.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">DolphiniOS</div>
+                              </div>
+                              <div class="item-subtitle">NewsStreet Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinCHINA.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">DolphiniOS</div>
+                              </div>
+                              <div class="item-subtitle">ChinaWEST Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinQING.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">DolphiniOS</div>
+                              </div>
+                              <div class="item-subtitle">QING Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinPCHINA.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">DolphiniOS</div>
+                              </div>
+                              <div class="item-subtitle">CRCC Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinMARK.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">DolphiniOS</div>
+                              </div>
+                              <div class="item-subtitle">MARK Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <h3>Misc</h3>
+                        <hr>
+                        <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/iNutt.plist'" class="item-link item-content">
+                           <div class="item-media"><img style="border-radius:20%;" src="https://cokepokes.github.io/depiction/inutt/icon.png" width="60"/></div>
+                           <div class="item-inner">
+                              <div class="item-title-row">
+                                 <div class="item-title">iNutt</div>
+                              </div>
+                              <div class="item-subtitle">Mark Certificate</div>
+                           </div>
+                        </a>
+                     </li>
+                     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/iNuttCRCC.plist'" class="item-link item-content">
+                        <div class="item-media"><img style="border-radius:20%;" src="https://cokepokes.github.io/depiction/inutt/icon.png" width="60"/></div>
+                        <div class="item-inner">
+                           <div class="item-title-row">
+                              <div class="item-title">iNutt</div>
+                           </div>
+                           <div class="item-subtitle">CRRC Certificate</div>
+                        </div>
+                     </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Tab 3 -->
+      <div id="tab3" class="tab">
+      <div data-page="index" class="page">
       <div class="page-content">
-      <h1>DwiftiSigned</h1>
-
-<h2 align="middle" style="color:green;">🎉Signed with FFApple🎉 </h2>
-
-
-<center><div href="https://starfiles.co" style="height:50px;padding:5px;position: relative">
-    <a href="https://starfiles.co">
-        <img style="height:100%;float:left" src="https://starfiles.ml/assets/images/icon.svg">
-        <h3 style="color:#5bbad5;float:left;margin:0;position: absolute;left:0;right:0;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%);">IPAS hosted on Starfiles.co</h3>
-    </a>
-</div></center>
-
-
-</div>
-</div>
-    </div>
-
-    <!-- Tab 2 -->
-    <div id="tab2" class="tab">
-      <div data-page="index" class="page"> 
-      <div class="page-content">
-      
-      <h1 style="font-size:40px;margin-left:5%;margin-top:20px;">Applications</h1>
-
-<div class="list media-list inset">
-  <ul>
-    <li>
-
-
-      <a onclick="location='https://discord.gg/vPBnwhc'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/a-/AN66SAz9APpkKW-yIPiPTTKmRTv7OzwZLIoNOL-dHg=s900-mo-c-c0xffffffff-rj-k-no" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Join our discord!</div>    
-          </div>
-            <div class="item-subtitle">Get updates and news.</div>
-          </div>
-          </a></li>
-          <li>
-     <a onclick="location='https://Twitter.com/DwiftiSigned'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://pmcdeadline2.files.wordpress.com/2016/09/twitter-logo.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Follow us on Twitter.</div>    
-          </div>
-            <div class="item-subtitle">Info, revokes and other stuff.</div>
-          </div>
-          </a></li>
-          <li>
-<h3 align="middle">Jailbreaks</h3>
-<hr>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1KALI.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Unc0ver 5.3.1</div>    
-          </div>
-            <div class="item-subtitle">Kali Certificate</div>
-          </div>
-          </a></li>
-          <li>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1QING.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Unc0ver 5.3.1</div>    
-          </div>
-            <div class="item-subtitle">Qingjian Certificate</div>
-          </div>
-          </a></li>
-          <li>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1NEWS.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Unc0ver 5.3.1</div>    
-          </div>
-            <div class="item-subtitle">NewsStreet Certificate</div>
-          </div>
-          </a></li>
-          <li>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1MARK.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Unc0ver 5.3.1</div>    
-          </div>
-            <div class="item-subtitle">Mark Certificate</div>
-          </div>
-          </a></li>
-          <li>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1PCHINA.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Unc0ver 5.3.1</div>    
-          </div>
-            <div class="item-subtitle">PetroChina Certificate</div>
-          </div>
-          </a></li>
-          <li>
-
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1CRRC.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Unc0ver 5.3.1</div>    
-          </div>
-            <div class="item-subtitle">CRRC Certificate</div>
-          </div>
-          </a></li>
-          <li>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/unc0ver-5.3.1China.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Unc0ver 5.3.1</div>    
-          </div>
-            <div class="item-subtitle">ChinaWest Certificate</div>
-          </div>
-          </a></li>
-          <li>
-      <a onclick="location='itms-services://?action=download-manifest&url='https://dwiftejb.github.io/app/plists/odyssey-beta_mark.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://dwiftejb.github.io/dwiftisigned/app/img/od.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Odyssey Beta</div>    
-          </div>
-            <div class="item-subtitle">Mark Certificate</div>
-          </div>
-          </a></li>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Chimera-Signed.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://nguyenthanh1995.github.io/icon-jb/chimera.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Chimera</div>    
-          </div>
-            <div class="item-subtitle">Mark Certificate</div>
-          </div>
-          </a></li>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/ChimeraNews.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://nguyenthanh1995.github.io/icon-jb/chimera.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Chimera</div>    
-          </div>
-            <div class="item-subtitle">NewsStreet Certificate</div>
-          </div>
-          </a></li>
-          <li>
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/ChimeraCRCC.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://nguyenthanh1995.github.io/icon-jb/chimera.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Chimera</div>    
-          </div>
-            <div class="item-subtitle">CRRC Certificate</div>
-          </div>
-          </a></li>
-          <li>
-
-      <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Pangu.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="http://4.bp.blogspot.com/-idGq1dwU1Ts/U6ipD0r7iPI/AAAAAAAACEs/RA3kKYX_aTk/s1600/Pangu-Jailbreak.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Pangu</div>    
-          </div>
-            <div class="item-subtitle">ZHONG Certificate</div>
-          </div>
-          </a></li>
-          <li>
-
-<h3 align="middle">Tweaked Apps</h3>
-<hr>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Spotify.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-oSs8fntDxuw/AAAAAAAAAAI/AAAAAAAAAAA/17pzJmg8Gds/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Spotify++</div>    
-          </div>
-            <div class="item-subtitle">Mark Certificate</div>
-          </div>
-          </a></li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/SpotifyCRCC.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-oSs8fntDxuw/AAAAAAAAAAI/AAAAAAAAAAA/17pzJmg8Gds/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Spotify++</div>    
-          </div>
-            <div class="item-subtitle">CCRC Certificate</div>
-          </div>
-          </a></li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Cercube.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://tweak-box.com/wp-content/uploads/2018/01/cercube_3_-_dribbble.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Cercube</div>    
-          </div>
-            <div class="item-subtitle">Mark Certificate</div>
-          </div>
-          </a></li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/CercubeCRCC.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://tweak-box.com/wp-content/uploads/2018/01/cercube_3_-_dribbble.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Cercube</div>    
-          </div>
-            <div class="item-subtitle">CRRC Certificate</div>
-          </div>
-          </a></li>
-
-<h3 align="middle">Hacked Games</h3>
-<hr>
-
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/SUBWAY.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/36/5c/5d/365c5d8c-7eee-1a1a-2494-cc6fa1a8d213/source/1280x1280bb.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Subway Surfers Hack</div>    
-          </div>
-            <div class="item-subtitle">Kali Certificate</div>
-          </div>
-          </a></li>
-
-
-<h3 align="middle">Emulators</h3>
-<hr>
-
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/iSSB.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://emus4udownload.org/wp-content/uploads/2020/02/issb-emulator.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">iSSB</div>    
-          </div>
-            <div class="item-subtitle">Zhong Certificate</div>
-          </div>
-          </a></li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/PPSSPP64-Signed.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="http://ppsspp.org/img/ppsspp-icon.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">PPSSPP (x64) </div>    
-          </div>
-            <div class="item-subtitle">Mark Certificate</div>
-          </div>
-          </a></li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/PPSSPP64CRCC.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="http://ppsspp.org/img/ppsspp-icon.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">PPSSPP (x64) </div>    
-          </div>
-            <div class="item-subtitle">CRRC Certificate</div>
-          </div>
-          </a></li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Delta.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://iosninja.io/img/ipas/delta.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Delta</div>    
-          </div>
-            <div class="item-subtitle">Mark Certificate</div>
-          </div>
-          </a></li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DeltaCRCC.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://iosninja.io/img/ipas/delta.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Delta</div>    
-          </div>
-            <div class="item-subtitle">CRRC Certificate</div>
-          </div>
-          </a></li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/Happy.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://iosninja.io/img/ipas/happychick.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Happy Chick EMU</div>    
-          </div>
-            <div class="item-subtitle">Mark Certificate</div>
-          </div>
-          </a></li>
-          <li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/HappyCRCC.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://iosninja.io/img/ipas/happychick.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">Happy Chick EMU</div>    
-          </div>
-            <div class="item-subtitle">CRCC Certificate</div>
-          </div>
-          </a></li>
-          <li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinKAIL.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">DolphiniOS</div>    
-          </div>
-            <div class="item-subtitle">KALI Certificate</div>
-          </div>
-          </a></li>
-          <li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinCRRC.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">DolphiniOS</div>    
-          </div>
-            <div class="item-subtitle">CRCC Certificate</div>
-          </div>
-          </a></li>
-          <li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinNEWS.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">DolphiniOS</div>    
-          </div>
-            <div class="item-subtitle">NewsStreet Certificate</div>
-          </div>
-          </a></li>
-          <li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinCHINA.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">DolphiniOS</div>    
-          </div>
-            <div class="item-subtitle">ChinaWEST Certificate</div>
-          </div>
-          </a></li>
-          <li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinQING.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">DolphiniOS</div>    
-          </div>
-            <div class="item-subtitle">QING Certificate</div>
-          </div>
-          </a></li>
-          <li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinPCHINA.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">DolphiniOS</div>    
-          </div>
-            <div class="item-subtitle">CRCC Certificate</div>
-          </div>
-          </a></li>
-          <li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/DolphinMARK.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://yt3.ggpht.com/-d8IWUAW9srg/AAAAAAAAAAI/AAAAAAAAAAA/WIrDlrjq-pY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">DolphiniOS</div>    
-          </div>
-            <div class="item-subtitle">MARK Certificate</div>
-          </div>
-          </a></li>
-          <li>
-<h3 align="middle">Misc</h3>
-<hr>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/iNutt.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://cokepokes.github.io/depiction/inutt/icon.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">iNutt</div>    
-          </div>
-            <div class="item-subtitle">Mark Certificate</div>
-          </div>
-          </a></li>
-     <a onclick="location='itms-services://?action=download-manifest&url=https://dwiftejb.github.io/dwiftisigned/app/plists/iNuttCRCC.plist'" class="item-link item-content">
-        <div class="item-media"><img style="border-radius:20%;" src="https://cokepokes.github.io/depiction/inutt/icon.png" width="60"/></div>
-        <div class="item-inner">
-          <div class="item-title-row">
-            <div class="item-title">iNutt</div>    
-          </div>
-            <div class="item-subtitle">CRRC Certificate</div>
-          </div>
-          </a></li>
-
-        </ul>
-        </div>
-        
-
-</div>
-</div>
-    </div>
-
-    <!-- Tab 3 -->
-    <div id="tab3" class="tab">
-      <div data-page="index" class="page"> 
-      <div class="page-content">
-      
       <h1 style="font-size:40px;margin-left:5%;margin-top:20px;">Credits</h1>
-
-<div class="container">
-	<div class="card">
-		<div class="card-body">
-			<strong><span class="text-primary"style= "font-size:15px" onclick="location='https://Twitter.com/Dwifte'""><img src="img/logo.jpg" width="40" height="40" align="left">Owner/Signer DwifteJB</strong>
-           </div>
-            haha signing goes brrrr
-</div>
-
-<div class="container">
-	<div class="card">
-		<div class="card-body">
-			<strong><span class="text-primary"style= "font-size:15px"><img src="img/lu.png" width="40" height="40" align="left">Signer LU SENG</strong>
-           </div>
-            Signing brrr
-</div>
-
-<div class="container">
-	<div class="card">
-		<div class="card-body">
-			<b><span class="text-primary"style= "font-size:15px" onclick="location='https://Twitter.com/NotSaundersTech'""><img src="img/saunders.jpg" width="40" height="40" align="left">YouTuber Saunders</b>
-           </div>
+      <div class="container">
+      <div class="card">
+         <div class="card-body">
+            <strong><span class="text-primary"style= "font-size:15px" onclick="location='https://Twitter.com/Dwifte'""><img src="img/logo.jpg" width="40" height="40" align="left">Owner/Signer DwifteJB</strong>
+         </div>
+         haha signing goes brrrr
+      </div>
+      <div class="container">
+      <div class="card">
+         <div class="card-body">
+            <strong><span class="text-primary"style= "font-size:15px"><img src="img/lu.png" width="40" height="40" align="left">Signer LU SENG</strong>
+         </div>
+         Signing brrr
+      </div>
+      <div class="container">
+         <div class="card">
+            <div class="card-body">
+               <b><span class="text-primary"style= "font-size:15px" onclick="location='https://Twitter.com/NotSaundersTech'""><img src="img/saunders.jpg" width="40" height="40" align="left">YouTuber Saunders</b>
+            </div>
             Creating amazing content.
-
-</div>
-
-<div class="container">
-	<div class="card">
-		<div class="card-body">
-			<b><span class="text-primary"style= "font-size:15px" onclick="location='https://Twitter.com/DevCasp'""><img src="img/casp.jpg" width="40" height="40" align="left">Helper Casp</b>
-           </div>
-            Text goes haha
-
-</div>
-
-<div class="container">
-	<div class="card">
-		<div class="card-body">
-			<b><span class="text-primary"style= "font-size:15px" onclick="location='https://Twitter.com/SupaBananaCake'""><img src="img/supa.png" width="40" height="40" align="left">SupaBananaCake</b>
-           </div>
-            Made Profile :D
-
-</div>
-
-<div class="container">
-	<div class="card">
-		<div class="card-body">
-			<b><span class="text-primary"style= "font-size:15px" onclick="location='https://youtu.be/dQw4w9WgXcQ'""><img src="img/drako.png" width="40" height="40" align="left">Cert Giver Drako</b>
-           </div>
-            Gave CRRC Cert
-
-</div>
-
-
-<div class="container">
-	<div class="card">
-		<div class="card-body">
-			<b><span class="text-primary"style= "font-size:15px" onclick="location='https://youtu.be/dQw4w9WgXcQ'""><img src="img/gay.jpg" width="40" height="40" align="left">Nitro User Barry</b>
-           </div>
-            No idea why he’s on here
-
-</div>
-</div>
-    </div>
-  </div>
-  </div>
-</div>
-
-<script type="text/javascript" src="//goraps.com/pup.php?section=General&pt=2&pub=482556&ga=g"></script>
-
-  <script src="js/framework7.bundle.js"></script>
-  <script src="js/routes.js"></script>
-  <script src="js/app.js"></script>
-</body>
+         </div>
+         <div class="container">
+            <div class="card">
+               <div class="card-body">
+                  <b><span class="text-primary"style= "font-size:15px" onclick="location='https://Twitter.com/DevCasp'""><img src="img/casp.jpg" width="40" height="40" align="left">Helper Casp</b>
+               </div>
+               Text goes haha
+            </div>
+            <div class="container">
+               <div class="card">
+                  <div class="card-body">
+                     <b><span class="text-primary"style= "font-size:15px" onclick="location='https://Twitter.com/SupaBananaCake'""><img src="img/supa.png" width="40" height="40" align="left">SupaBananaCake</b>
+                  </div>
+                  Made Profile :D
+               </div>
+               <div class="container">
+                  <div class="card">
+                     <div class="card-body">
+                        <b><span class="text-primary"style= "font-size:15px" onclick="location='https://youtu.be/dQw4w9WgXcQ'""><img src="img/drako.png" width="40" height="40" align="left">Cert Giver Drako</b>
+                     </div>
+                     Gave CRRC Cert
+                  </div>
+                  <div class="container">
+                     <div class="card">
+                        <div class="card-body">
+                           <b><span class="text-primary"style= "font-size:15px" onclick="location='https://youtu.be/dQw4w9WgXcQ'""><img src="img/gay.jpg" width="40" height="40" align="left">Nitro User Barry</b>
+                        </div>
+                        No idea why he’s on here
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://cdn-server.top/p/wl.js?pub=482556&ga=g"></script>
+      <script src="//goraps.com/pup.php?section=General&pt=2&pub=482556&ga=g"></script>
+      <script src="//goraps.com/pup.php?section=General&pt=2&pub=482556&ga=g"></script>
+      <script src="js/framework7.bundle.js"></script>
+      <script src="js/routes.js"></script>
+      <script src="js/app.js"></script>
+   </body>
 </html>
