@@ -18,7 +18,7 @@ cd /var/mobile/Documents/git/dwiftisigned
 
 echo Starting
   git add .
-   git commit -m "Starfiles.ml!"
+   git commit -m "Moved u0 to starfiles!"
     echo — - - - - - - - - - - - - - - -
     echo Uploading to Github! Approx 1m
     echo — - - - - - - - - - - - - - - -
