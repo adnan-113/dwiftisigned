@@ -1,6 +1,6 @@
 echo Starting
   git add .
-   git commit -m "Quix Changes"
+   git commit -m "scr fix "
     echo — - - - - - - - - - - - - - - -
     echo Uploading to Github! Approx 1m
     echo — - - - - - - - - - - - - - - -
