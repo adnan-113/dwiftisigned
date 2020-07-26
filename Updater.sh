@@ -1,24 +1,6 @@
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd ..
-cd /var/mobile/Documents/git/dwiftisigned
-
 echo Starting
   git add .
-   git commit -m "Removed DolphinIOS and added alt text."
+   git commit -m "Quix Changes"
     echo — - - - - - - - - - - - - - - -
     echo Uploading to Github! Approx 1m
     echo — - - - - - - - - - - - - - - -
